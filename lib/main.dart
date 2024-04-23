@@ -1,11 +1,13 @@
-import 'dart:ffi';
 import 'dart:typed_data';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:change_image_profile/utils.dart';
 import 'package:change_image_profile/add_resource/add_data.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
