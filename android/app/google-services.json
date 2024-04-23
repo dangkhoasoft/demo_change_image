@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "200391244067",
+    "project_id": "changeimage-bbdc4",
+    "storage_bucket": "changeimage-bbdc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200391244067:android:939d44485a4a1338b5b496",
+        "android_client_info": {
+          "package_name": "com.example.change_image_profile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANfexcjrNERDwX54VD2A1D6wWaZcBVifw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
